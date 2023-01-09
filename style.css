@@ -1,0 +1,48 @@
+/* p.welcome_msg {
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+p.auth_msg {
+    color: black;
+    font-weight: bold;
+}
+body{
+    background-color: rgb(135, 170, 231);
+}
+h1.headline{
+    font-size: 50px;
+    margin: 15px;
+} */
+
+nav.menu-nav ul li.btn a{
+    color: rgb(254, 254, 254);
+    text-decoration: none;
+    background-color: rgb(5, 5, 67);
+    padding: 10px;
+}
+nav.menu-nav ul li.btn:hover a{
+    background-color: rgb(6, 6, 197);
+    transition: 0.3s all;
+}
+
+nav.menu-nav ul li.btn{
+    list-style-type: none;
+    display: inline-block;
+}
+
+div#content div{
+    display: inline-block;
+    width: 48%;
+}
+
+div#content div.leftbox{
+    vertical-align: top;
+}
+
+div#content div h1, p, iframe{
+    margin: 35px;
+}
+
+div#content div.rightbox{
+    
+}
