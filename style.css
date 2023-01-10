@@ -1,18 +1,23 @@
-/* p.welcome_msg {
-    color: rgb(255, 255, 255);
-    background-color: black;
+p.welcome_msg {
+    color: rgb(0, 0, 0);
 }
+
 p.auth_msg {
     color: black;
     font-weight: bold;
+    background-color: rgb(185, 8, 8);
+    text-align: center;
 }
+
+h1.headline{
+    font-size: 25px;
+    margin: 15px;
+    text-align: center;
+}
+
 body{
     background-color: rgb(135, 170, 231);
 }
-h1.headline{
-    font-size: 50px;
-    margin: 15px;
-} */
 
 nav.menu-nav ul li.btn a{
     color: rgb(254, 254, 254);
@@ -24,10 +29,12 @@ nav.menu-nav ul li.btn:hover a{
     background-color: rgb(6, 6, 197);
     transition: 0.3s all;
 }
-
 nav.menu-nav ul li.btn{
     list-style-type: none;
     display: inline-block;
+}
+nav.menu-nav ul{
+    margin-left: 60px;
 }
 
 div#content div{
